@@ -57,6 +57,19 @@ img {
     margin-bottom: 84px;
 }
 
+.navigation{
+    display: flex;
+    gap: 500px;
+    align-items: center;
+}
+
+.headercontent{
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
 .mainBattonStart{
     width: 140px;
     height: 50px;
@@ -89,20 +102,22 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background: none
 }
 
 .mainButton{
-    
+    display: flex;
+	gap: 72px;
 }
 
+
 .mainContent{ 
+    display: flex;
+    justify-content: space-between;
 }
 
 .main{
 margin-bottom: 97px;
-}
-
-.mainContent__leftSide{
 }
 
 .mainContent__leftSide h1{
@@ -113,6 +128,7 @@ margin-bottom: 97px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 17px;
+    max-width: 522px;
 }
 
 .mainContent__leftSide p{
@@ -123,6 +139,7 @@ margin-bottom: 97px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 37px;
+    max-width: 466px;
 }
 
 .footer{
@@ -130,5 +147,6 @@ margin-bottom: 96px;
 }
 
 .logosFooter{
-
+    display: flex;
+	justify-content: space-between;
 }
