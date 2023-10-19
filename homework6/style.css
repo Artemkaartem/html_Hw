@@ -219,7 +219,6 @@ img{
 .products2{
     background:  #F7E4E2;
     width: 360px;
-    height: 420px;
 }
 
 .products2 img{
@@ -275,12 +274,12 @@ img{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    padding: 16px;
+    
 }
 
 .products_content{
     display: flex;
-    width: 314.743px;
+    max-width: 314.743px;
     height: 116.653px;
     padding: 24px 16px;
     flex-direction: column;
@@ -366,7 +365,7 @@ img{
     .banner_text{
         margin-top: 138.1px;
         margin-bottom: 151.47px;
-        margin-left: 67px;
+        margin-left: 39px;
         margin-right: 33.57px;
     }
 
@@ -421,5 +420,130 @@ img{
     .prod_content{
         padding-top: 12.65px;
         padding-bottom: 18px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 374px) {
+    .container {
+        max-width: 343px;
+    }
+
+    .header{
+        max-width: 375px;
+        height: 74px;
+    }
+
+    .button_office{
+        position: absolute;
+        left: -99999999999px;
+        visibility: hidden;
+    }
+    
+    .button_basket{
+        position: absolute;
+        left: -99999999999px;
+        visibility: hidden;
+    }
+
+    .banner{
+        max-width: 375px;
+        height: 363px;
+        margin-bottom: 64px;
+    }
+
+    .men_banner{
+        position: absolute;
+        left: -99999999999px;
+        visibility: hidden;
+    }
+
+    .fashion{
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .banner_text h3{
+        color: #222;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;;
+    }
+    
+    .banner_text h2{
+        color: #222;
+        font-family: Lato;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .banner_text{
+        margin-top: 148px;
+        margin-bottom: 149px;
+        margin-left: 56px;        
+    }
+
+    .card_men{
+        width: 344px;
+        height: 249px;
+    }
+    
+    .card_kids{
+        width: 343px;
+        height: 248px;   
+    }
+    
+    .card_accesories{
+        width: 343.262px;
+        height: 111px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .card_women {
+        width: 343px;
+        height: 247px;  
+    }
+
+    .card{ 
+        gap: 16.61px;
+        margin-bottom: 64px;
+     }
+
+     .card_font_accesories{
+        width: 343.262px;
+        height: 111px;
+    }
+
+    .card_font{
+        width: 341px;
+        height: 247px;  
+    }
+    
+    .products{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 40.61px;    
+    }
+
+    .products_p{
+        margin-bottom: 64.7px;
+    }
+    
+    .products2{
+        width: 343px;
+
+    }
+    
+    .prod_content{
+       padding-bottom: 17.95px;     
     }
 }
