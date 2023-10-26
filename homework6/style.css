@@ -54,6 +54,7 @@ img{
 .header_button{   
     display: flex;
     gap: 22px; 
+    position: relative;
 }
 
 .button_menu{
@@ -83,7 +84,94 @@ img{
     flex-shrink: 0;
     background: none;
     border: none;
-    cursor: pointer;
+    cursor: pointer; 
+}
+
+.basket_five{
+    background: #F16D7F;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 18px;
+    right: -9px;
+    border-radius: 10px;
+}
+
+.basket_span_five{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1px 5.36px 4px 6.64px;
+}
+
+.menu-active{
+    width: 232px;
+    height: 634px;
+    background: #FFF;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.menu-text{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 12px;
+    padding-left: 32px;
+}
+
+.memu-list{
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column; 
+    gap: 11px;
+    padding-left: 53.5px;
+}
+
+.menu-active__all{  
+    padding-bottom: 32px;
+}
+
+.menu-hedding{
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-left: 32px;
+}
+
+.menu-woman{
+    padding-top: 20px;
+}
+
+.menu-kids{
+    padding-top: 20px;
+}
+
+.menu-close{
+    margin-bottom: 25px;
+    margin-top: 2px;
+    margin-left: 199px;
 }
 
 .men_banner{
@@ -100,6 +188,7 @@ img{
     background: #F1E4E6;
     display: flex;
     margin-bottom: 65px;
+    position: relative;
 }
 
 .banner_text{
@@ -1003,6 +1092,9 @@ svg:hover path{
         margin-top: 43px;  
     }
 
-    .footer > .footer_p {order: 2;} 
+    .footer_p{
+        padding-bottom: 9px;
+    }
 
+    .footer > .footer_p {order: 2;} 
 }
